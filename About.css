@@ -1,0 +1,71 @@
+/* Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia", serif;
+  background: #fff8e7; /* Cream background */
+  color: #2d2d2d;
+  height: 100%;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #6b0000; /* Vintage Maroon */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.navbar .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #d4af37; /* Golden accent */
+  margin-right: 50px;
+  letter-spacing: 1px;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-links li a {
+  color: #fff8e7; /* Cream text */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar .nav-links li a:hover,
+.navbar .nav-links li a.active {
+  color: #d4af37; /* Golden hover */
+}
+
+/* About Section */
+.about-container {
+  max-width: 900px;
+  margin: 120px auto 40px auto; /* space for navbar */
+  padding: 30px;
+  background: #fff8e7;
+  border: 2px solid #6b0000;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.about-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #6b0000;
+  border-bottom: 2px solid #d4af37;
+  display: inline-block;
+  padding-bot
